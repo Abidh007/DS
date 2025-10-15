@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 #include<conio.h>
 void main(){
@@ -6,17 +7,19 @@ clrscr();
 printf("enter the size ofthe first array");
 scanf("%d",&N);
 for(i=0;i<N;i++){
-scanf("%d",arr[i])
-arr3[i]=arr1[i]
+scanf("%d",arr1[i]);
+arr3[i]=arr1[i];
 }
 k=i;
 printf("enter the size of the second array");
 for(i=0;i<M;i++){
-scanf("%d",arr[i])
-arr3[k]=arr2[i]
-k++
+scanf("%d",arr2[i]);
+arr3[k]=arr2[i];
+k++;
 }
 for(i=0;i<M;i++)
 {
-printf("Merged values array%d",arr3[i])
+printf("Merged values array%d",arr3[i]);
+}
+getch();
 }
